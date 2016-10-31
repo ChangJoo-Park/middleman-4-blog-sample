@@ -1,8 +1,11 @@
 ###
 # Page options, layouts, aliases and proxies
 ###
+# Site config
+config[:site_title] = "My Blog"
+config[:site_description] = "My first sample blog"
 
-# Timezon
+# Timezone
 Time.zone = "Seoul"
 
 # Per-page layout changes:

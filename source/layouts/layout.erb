@@ -1,4 +1,6 @@
 <%= partial "partials/layouts/head" %>
-<%= yield %>
-<%= partial "partials/layouts/footer" %>
+<div class="pure-g">
+  <%= partial "partials/layouts/sidebar" %>
+  <%= yield %>
+</div>
 <%= partial "partials/layouts/foot" %>
