@@ -7,10 +7,6 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-// .container {
-//   max-width: 700px;
-//   margin: 0 auto;
-// }
 
 a {
   text-decoration: none;
@@ -52,6 +48,14 @@ a {
 
   .brand-title {
     text-transform: uppercase;
+
+    a {
+      color: #fff;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
 
     .brand-tagline {
       margin: 0;
@@ -133,17 +137,34 @@ a {
         background-color: #4d85d1;
         color: #fff;
       }
+    }
 
-      .post-description {
-        color: #444;
-        line-height: 1.8em;
+    .post-description {
+      color: #444;
+      line-height: 1.8em;
 
-        p {
-          -webkit-margin-before: 1em;
-          -webkit-margin-after: 1em;
-          -webkit-margin-start: 0;
-          -webkit-margin-end: 0;
-        }
+      p {
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+      }
+    }
+
+    .post-tags {
+      a {
+        color: #999;
+        font-size: 0.5em;
+        margin: 0;
+      }
+    }
+
+    .button-readmore {
+      color: #999;
+      font-size: 0.9em;
+
+      &:hover {
+        text-decoration: none;
       }
     }
   }
@@ -163,9 +184,36 @@ a {
       text-decoration: underline;
     }
   }
+
+  .pure-menu-list {
+    margin: 0;
+  }
 }
 
 .footer .pure-menu a:focus,
 .footer .pure-menu a:hover {
   background: none;
+}
+// Pager
+
+.pager {
+  text-align: center;
+  color: #ccc;
+
+  .button-pager {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ccc;
+  }
+}
+// Article
+
+.article {
+  .article-meta {
+    font-size: 1em;
+    color: #999;
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+  }
 }

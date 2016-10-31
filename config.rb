@@ -1,10 +1,12 @@
+require 'digest/md5'
 ###
 # Page options, layouts, aliases and proxies
 ###
 # Site config
 config[:site_title] = "My Blog"
 config[:site_description] = "My first sample blog"
-
+config[:owner_name] = "ChangJoo Park"
+config[:owner_email] = "pcjpcj2@gmail.com"
 # Timezone
 Time.zone = "Seoul"
 
@@ -43,6 +45,11 @@ helpers do
 
     return list.inject(Hash.new(0)){|hash, a| hash[a] += 1; hash}
   end
+
+  def gravatar_for(email)
+    hash = Digest::MD5.hexdigest(email.chomp.downcase)
+    "http://www.gravatar.com/avatar/#{hash}"
+  end
 end
 
 # Build-specific configuration
@@ -63,7 +70,9 @@ activate :blog do |blog|
   blog.permalink = "blog/{year}/{month}/{day}/{title}"
   blog.layout = "blog_layout"
   blog.summary_separator = /(READMORE)/
+  blog.new_article_template = File.expand_path('source/article-template/post-template.html.erb', File.dirname(__FILE__))
   blog.tag_template = "tag.html"
+  blog.taglink = "tags/{tag}"
   blog.custom_collections = {
     category: {
       link: '/categories/{category}',

@@ -1,16 +1,15 @@
 ---
-title: Welcome to Middleman
+layout: layout
 pageable: true
 ---
 <div class="content pure-u-1 pure-u-md-3-4">
   <div class="posts">
     <h2 class="content-subhead">
-      Recent Posts
+      Category - <strong><%= category %></strong>
     </h2>
     <% page_articles.each do |article| %>
       <%= partial "partials/article", locals: { article: article } %>
     <% end %>
   </div>
-  <%= partial "partials/pager" %>
   <%= partial "partials/layouts/footer" %>
 </div>

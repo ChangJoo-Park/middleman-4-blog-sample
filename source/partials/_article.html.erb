@@ -1,0 +1,29 @@
+<section class="post">
+  <header class="post-header">
+    <% unless config[:owner_email].nil? %>
+      <%= image_tag gravatar_for(config[:owner_email]), class: 'post-avatar' %>
+    <% else %>
+      <%= image_tag lorem.image('50x50', :random_color => true), class: 'post-avatar' %>
+    <% end %>
+
+    <h3 class="post-title"><%= article.title %></h3>
+    <p class="post-meta">
+      By <a href="" class="post-author"><%= config[:owner_name] %></a>
+      under
+      <%= link_to article.data.category, category_path(article.data.category), class: "post-category label" %>
+    </p>
+  </header>
+  <div class="post-description">
+    <p><%= article.summary %></p>
+    <p>
+      <%= link_to "더 읽기", article, class: "button-readmore" %>
+    </p>
+  </div>
+  <div class="post-tags">
+    <% unless article.data.tags.nil? %>
+      <% article.data.tags.delete("\s\n").split(",").each do |tag| %>
+        <%= link_to tag, tag_path(tag), class: 'pure-button' %>
+      <% end %>
+    <% end %>
+  </div>
+</section>

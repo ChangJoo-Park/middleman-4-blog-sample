@@ -1,0 +1,9 @@
+<% wrap_layout :layout do %>
+  <article class="article content pure-u-1 pure-u-md-3-4">
+    <h2 class="article-meta">
+      <%= Date.strptime(current_page.data.date) %>
+    </h2>
+    <h1><%= current_page.title %></h1>
+    <%= yield %>
+  </article>
+<% end %>

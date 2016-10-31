@@ -1,0 +1,13 @@
+<div class="pager">
+  <% if paginate && num_pages > 1 %>
+    <% if prev_page %>
+    <%= link_to '이전 페이지', prev_page, class:"previous button-pager pure-button" %>
+    <% end %>
+  <% end %>
+
+  <% if paginate %>
+    <% if next_page %>
+    <%= link_to '다음 페이지', next_page, class:"next button-pager pure-button" %>
+    <% end %>
+  <% end %>
+</ul>
