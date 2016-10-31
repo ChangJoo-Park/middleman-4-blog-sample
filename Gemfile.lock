@@ -44,6 +44,7 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (3.4.6)
+    htmlbeautifier (1.2.0)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     json (1.8.3)
@@ -133,6 +134,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  htmlbeautifier (~> 1.1, >= 1.1.1)
   middleman (>= 4.0.0)
   middleman-blog
   middleman-compass (>= 4.0.0)
