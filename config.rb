@@ -5,7 +5,7 @@ require 'digest/md5'
 # Site config
 config[:site_title] = "My Blog"
 config[:site_description] = "My first sample blog"
-config[:owner_name] = "ChangJoo Park"
+config[:owner_name] = "John Doe"
 config[:owner_email] = "pcjpcj2@gmail.com"
 # Timezone
 Time.zone = "Seoul"
@@ -70,7 +70,8 @@ activate :blog do |blog|
   blog.permalink = "blog/{year}/{month}/{day}/{title}"
   blog.layout = "blog_layout"
   blog.summary_separator = /(READMORE)/
-  blog.new_article_template = File.expand_path('source/article-template/post-template.html.erb', File.dirname(__FILE__))
+  blog.new_article_template = File.expand_path('source/article-template/post-template.html.erb',
+                                               File.dirname(__FILE__))
   blog.tag_template = "tag.html"
   blog.taglink = "tags/{tag}"
   blog.custom_collections = {

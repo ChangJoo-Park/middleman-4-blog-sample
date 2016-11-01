@@ -6,7 +6,7 @@
       <%= image_tag lorem.image('50x50', :random_color => true), class: 'post-avatar' %>
     <% end %>
 
-    <h3 class="post-title"><%= article.title %></h3>
+    <h3 class="post-title"><%= link_to article.title, article %></h3>
     <p class="post-meta">
       By <a href="" class="post-author"><%= config[:owner_name] %></a>
       under
