@@ -14,8 +14,8 @@
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
     <!--<![endif]-->
-      <link href="/stylesheets/site.css" rel="stylesheet" />
-      <script src="/javascripts/all.js"></script>
+      <link href="../../../../middleman-4-blog-sample/stylesheets/site.css" rel="stylesheet" />
+      <script src="../../../../middleman-4-blog-sample/javascripts/all.js"></script>
     </head>
     <body class="blog blog_2016 blog_2016_10 blog_2016_10_31 blog_2016_10_31_first-article">
 
@@ -27,10 +27,10 @@
     <nav class="nav">
       <ul class="nav-list">
           <li class="nav-item">
-<a href="/categories/middleman" class="pure-button">              Middleman
+<a href="/middleman-4-blog-sample/categories/middleman" class="pure-button">              Middleman
 </a>          </li>
           <li class="nav-item">
-<a href="/categories/blogging" class="pure-button">              blogging
+<a href="/middleman-4-blog-sample/categories/blogging" class="pure-button">              blogging
 </a>          </li>
       </ul>
     </nav>

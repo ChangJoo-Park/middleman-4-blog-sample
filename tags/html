@@ -14,8 +14,8 @@
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
     <!--<![endif]-->
-      <link href="/stylesheets/site.css" rel="stylesheet" />
-      <script src="/javascripts/all.js"></script>
+      <link href="/middleman-4-blog-sample/stylesheets/site.css" rel="stylesheet" />
+      <script src="/middleman-4-blog-sample/javascripts/all.js"></script>
     </head>
     <body class="tags tags_html">
 
@@ -27,10 +27,10 @@
     <nav class="nav">
       <ul class="nav-list">
           <li class="nav-item">
-<a href="/categories/middleman" class="pure-button">              Middleman
+<a href="/middleman-4-blog-sample/categories/middleman" class="pure-button">              Middleman
 </a>          </li>
           <li class="nav-item">
-<a href="/categories/blogging" class="pure-button">              blogging
+<a href="/middleman-4-blog-sample/categories/blogging" class="pure-button">              blogging
 </a>          </li>
       </ul>
     </nav>
@@ -46,24 +46,25 @@
   <header class="post-header">
       <img src="http://www.gravatar.com/avatar/f43ebcb0ae804b58eec3fd06c2473804" class="post-avatar" alt="F43ebcb0ae804b58eec3fd06c2473804" />
 
-    <h3 class="post-title"><a href="/blog/2016/10/31/new-second-article">New Second Article</a></h3>
+    <h3 class="post-title"><a href="/middleman-4-blog-sample/blog/2016/10/31/new-second-article">New Second Article</a></h3>
     <p class="post-meta">
       By <a href="" class="post-author">John Doe</a>
       under
-      <a href="/categories/middleman" class="post-category label">Middleman</a>
+      <a href="/middleman-4-blog-sample/categories/middleman" class="post-category label">Middleman</a>
     </p>
   </header>
   <div class="post-description">
     <p><p>Aliqua elit deserunt proident incididunt aliqua ipsum nostrud exercitation sint commodo id consectetur.</p>
-</p>
+
+<p></p></p>
     <p>
-      <a href="/blog/2016/10/31/new-second-article" class="button-readmore">더 읽기</a>
+      <a href="/middleman-4-blog-sample/blog/2016/10/31/new-second-article" class="button-readmore">더 읽기</a>
     </p>
   </div>
   <div class="post-tags">
-        <a href="/tags/html" class="pure-button">html</a>
-        <a href="/tags/middleman" class="pure-button">middleman</a>
-        <a href="/tags/blog" class="pure-button">blog</a>
+        <a href="/middleman-4-blog-sample/tags/html" class="pure-button">html</a>
+        <a href="/middleman-4-blog-sample/tags/middleman" class="pure-button">middleman</a>
+        <a href="/middleman-4-blog-sample/tags/blog" class="pure-button">blog</a>
   </div>
 </section>
 
