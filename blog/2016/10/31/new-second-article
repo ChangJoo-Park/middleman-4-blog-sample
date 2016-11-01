@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>New Second Article</title>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+      <link href="/stylesheets/site.css" rel="stylesheet" />
+      <script src="/javascripts/all.js"></script>
+    </head>
+    <body class="blog blog_2016 blog_2016_10 blog_2016_10_31 blog_2016_10_31_new-second-article">
+
+<div class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <h1 class="brand-title"><a href="/">My Blog</a></h1>
+    <h2 class="brand-tagline">My first sample blog</h2>
+    <nav class="nav">
+      <ul class="nav-list">
+          <li class="nav-item">
+<a href="/categories/middleman" class="pure-button">              Middleman
+</a>          </li>
+          <li class="nav-item">
+<a href="/categories/blogging" class="pure-button">              blogging
+</a>          </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+    <article class="article content pure-u-1 pure-u-md-3-4">
+    <h2 class="article-meta">
+      2016-10-31
+    </h2>
+    <h1>New Second Article</h1>
+    <p>Aliqua elit deserunt proident incididunt aliqua ipsum nostrud exercitation sint commodo id consectetur.</p>
+
+<p></p>
+
+<p>Lorem eu sunt exercitation esse velit sit sint enim mollit est sunt nisi voluptate Lorem. Id culpa amet excepteur reprehenderit ad ut est. Labore ad consectetur id irure veniam exercitation dolor consequat amet nulla quis duis aliqua. Sit deserunt minim dolor anim ea aliquip quis est est ex cillum sunt quis consequat esse. Quis officia officia eiusmod ipsum non commodo officia dolore occaecat dolor aute do duis exercitation excepteur. Tempor dolore qui magna deserunt ex ex cillum magna.</p>
+
+<p>Tempor enim cupidatat dolore culpa do sunt ipsum. Sint nostrud aute amet duis ex exercitation et. Nisi consequat culpa excepteur aute magna amet tempor laborum minim non commodo. Eiusmod pariatur sint aliquip reprehenderit occaecat aliqua sit. Officia ea Lorem labore enim aliqua nulla et sunt anim officia. Pariatur elit dolore aliquip culpa aliquip aute ex elit mollit sunt cupidatat elit. Aliquip Lorem id deserunt magna officia exercitation quis esse cillum esse ut minim cupidatat culpa. Exercitation exercitation ad ullamco amet culpa culpa adipisicing.</p>
+
+<p>Aliquip do minim do eu mollit consequat commodo ex magna in voluptate labore sunt officia aliqua nostrud. Elit sint consectetur minim excepteur labore incididunt adipisicing eiusmod elit fugiat sunt aliquip consectetur dolore quis nulla. Amet consequat sint reprehenderit voluptate est aliquip culpa non consectetur veniam anim quis. Dolore velit magna commodo exercitation proident in nisi elit occaecat cillum irure duis excepteur sunt ipsum nulla consequat. Amet excepteur ullamco id adipisicing culpa esse commodo in tempor aute laboris incididunt ad mollit nostrud nulla.</p>
+
+<p>Irure labore deserunt aliquip proident culpa magna proident nostrud culpa id. Incididunt quis sint sit dolor consequat ullamco magna. Consequat et sit et deserunt nulla duis sit ullamco est aliqua occaecat eu do. Nostrud culpa mollit eu commodo exercitation cupidatat ad.</p>
+
+  </article>
+
+</div>
+</body>
+</html>
+
